@@ -1,25 +1,41 @@
 
-@media only screen and (max-width: 700px)
-  {
-    h2
-    {
-      box-sizing:border-box;
-    }
-   *
-    {
-      fotn-size:20px;
-      display:block;
-    }
-}
-.title
+@media screen and (max-width:700px)
 {
-  font-size: 100px;  
+    .title
+    {
+       font-size: 20px;
+    }
+    .you_title
+    {
+      font-size: 20px;
+      margin-left: 10px;
+      animation-duration: 0s;
+    }
+    .you_input
+    {
+      max-width: 150px ;
+     left: 20px;
+     margin-top: 10px;
+    }
+    .you_buto
+    {
+      left:10px;
+      height: 20px;
+      width: 20px;
+      margin-top: -40px;
+    }
+    
+}
+
+h1
+{
+  font-size: 100px;
   font-family: 'Rye', cursive;
 margin-left:250px;
 color: #016e85;
 }
 
-.you_title
+h2
 {
     position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -54,7 +70,7 @@ color: #016e85;
   color:#FEE227;  
 }
  }
-.you_input
+input
 {
     position: relative;
     top:-20px;
@@ -62,9 +78,9 @@ color: #016e85;
     left:50px;
     background-color: rgb(193, 207, 207);
 }
-.you_buto
+button
 {
-    position:absolute;
+    position:relative;
     left: 700px;
     margin-top: -10px;
     border-radius: 100%;
