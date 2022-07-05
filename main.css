@@ -1,6 +1,10 @@
 
 @media only screen and (max-width: 700px)
   {
+    h2
+    {
+      box-sizing:border-box;
+    }
    *
     {
       fotn-size:20px;
